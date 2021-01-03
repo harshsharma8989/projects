@@ -4,7 +4,7 @@ const app =express();
 const port =5500;
 // const bodyParser = require('body-parser')
 
-const mongouri=`mongodb+srv://goeasy:goeasy123@cluster0.edmhw.mongodb.net/goeasy?retryWrites=true&w=majority`;
+const mongouri=`mongodb+srv://name:<password>@cluster0.edmhw.mongodb.net/name?retryWrites=true&w=majority`;
 const bankroutes=require('./routes/bank')
 mongoose.connect(mongouri,{
     useNewUrlParser:true,
